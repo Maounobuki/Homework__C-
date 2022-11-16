@@ -5,7 +5,7 @@
 int num1 = int.Parse (Console.ReadLine());
 string num = num1.ToString();
 if(num.Length < 3){
-    Console.WriteLine("Такого значения не существует");
+    Console.WriteLine("Вы ввели неверное число");
 }
 else
 {
