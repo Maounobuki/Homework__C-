@@ -16,6 +16,6 @@ Console.WriteLine($"Второе число {num2} - меньшее");
 }
 else 
 {
-Console.WriteLine($"Второе число{num2} - большее");
-Console.WriteLine($"Первое число{num1} - меньшее");
+Console.WriteLine($"Второе число {num2} - большее");
+Console.WriteLine($"Первое число {num1} - меньшее");
 }
