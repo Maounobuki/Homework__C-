@@ -3,7 +3,7 @@
  Обязательна проверка на ввод чисел больше/меньше 3-х знаков*/
 
  Console.WriteLine("Введите трёхзначное число : ");
-int num1 = int.Parse (Console.ReadLine());
+int num1 = int.Parse (Console.ReadLine()!);
 /*string num = num1.ToString();
 if(num.Length !=3){
     Console.WriteLine("Неверное число!");

@@ -4,7 +4,7 @@
  
  
 Console.WriteLine("Введите число : ");
-int num1 = int.Parse (Console.ReadLine());
+int num1 = int.Parse (Console.ReadLine()!);
 if(num1 < 1 || num1  > 7)
 {
 Console.WriteLine("Такого значения не существует");
