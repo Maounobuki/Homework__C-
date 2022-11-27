@@ -15,3 +15,4 @@ int[] Mass(int[] array, int min, int max)
     }
     return array;
 } 
+
