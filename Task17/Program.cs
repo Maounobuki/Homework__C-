@@ -1,7 +1,9 @@
 ﻿//Задача 38: Задайте массив целых чисел от -10 до 10. 
 //Найдите разницу между максимальным и минимальным элементов массива.
 
-int[] array = new int[8];
+Console.WriteLine("Введите размер массива: ");
+int a = int.Parse(Console.ReadLine()!);
+int [] array = new int [a];
 Mass(array);
 Div(array);
 Console.WriteLine($"Массив:  [{String.Join(" , ",array)}]");
