@@ -40,13 +40,13 @@ int[,,] GetCubeArray(int x, int y, int z, int a, int b)
         {
             for (int k = 0; k < z; k++){
                 while (true){
-                    bool indikator =true;
+                    bool flag =true;
                     int number = new Random().Next(a, b);
                     foreach(int n in result){
-                        if (n == number) indikator = false;
+                        if (n == number) flag = false;
                     }
                     
-                    if (indikator == true){
+                    if (flag == true){
                         result[i,j,k] = number;
                         break;
                     }
